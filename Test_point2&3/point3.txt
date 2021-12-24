@@ -1,0 +1,4 @@
+Un proveedor externo nos envía eventos a una URL de nuestro sistema cuando ocurren ciertas acciones en su plataforma. ¿Como evitarlas perder eventos enviados por este proveedor ante un eventual problema?
+
+
+Replicaria el servicio con una herramienta similar a HearthBeat que lo que hace es compartir las peticiones entre las copias de la API para asi evitar la perdida de datos y asi brindando una continua respuesta al proveedor
